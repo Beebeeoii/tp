@@ -15,26 +15,12 @@ import seedu.address.commons.core.LogsCenter;
  */
 public class HelpWindow extends UiPart<Stage> {
 
-    public static final String USERGUIDE_URL = "https://se-education.org/addressbook-level3/UserGuide.html";
-    public static final String HELP_MESSAGE = "The following are required prefix for addm"
-            + " and add command and what they stand for. \n"
-            + "You can press the tab key to fill in the next parameter, \n"
-            + "if you forget what comes next. The other commands use the \n"
-            + "same prefixes to refer to a meeting/person property\n"
-            + "addm: \n"
-            + "Prefix: m/ dt/ p/ l/ des/\n"
-            + "m/ : meeting title\n"
-            + "dt/ : datetime\n"
-            + "p/ : person attending the meeting (use this tag for each person attending)\n"
-            + "des/ : description of the meeting\n\n"
-            + "add: \n"
-            + "Prefix required: n/ p/ e/ a/ t/\n"
-            + "n/: name\n"
-            + "p/: phone number\n"
-            + "e/: email\n"
-            + "a/: address\n"
-            + "t/ tag\n"
-            + "More help can be found in the user guide\n"
+    public static final String USERGUIDE_URL = "https://ay2223s2-cs2103t-t11-2.github.io/tp/UserGuide.html";
+    public static final String HELP_MESSAGE = "The available commands for QuickContacts are:\n\n"
+            + "Contacts: add, delete, edit, export, find, import, list\n\n"
+            + "Meetings: addm, delm, editm, exportm, importm, listm\n\n"
+            + "Miscellaneous: clear, exit, help \n\n"
+            + "For more information, visit our user guide:\n"
             + USERGUIDE_URL;
 
     private static final Logger logger = LogsCenter.getLogger(HelpWindow.class);
